@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+/* Create three equal columns that floats next to each other */
+.column-lead {
+  float: left;
+  width: 8.33%;
+  padding: 10px;
+  margin: 0.33%;
+  border: 1px solid #ccc;
+}
+
+.column {
+  float: left;
+  width: 29.66%;
+  padding: 10px;
+  margin: 0.33%;
+  border: 1px solid #ccc;
+}
+
+.column100 {
+  float: left;
+  width: 99.33%;
+  padding: 10px;
+  margin: 0.33%;
+  border: 1px solid #ccc;
+  background-color: #eee
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.europe {
+  border: 2px solid blue;
+}
+
+.usa {
+  border: 2px solid red;
+}
+
+.world {
+  border: 2px solid green;
+}
+
+.blue-node {
+  color: #84c5f3;
+  -webkit-text-stroke: 1px #008df2;
+}
+.purple-node {
+  color: #c072f0;
+  -webkit-text-stroke: 1px #9500f0;
+}
+.green-node {
+  color: #abfe8d;
+  -webkit-text-stroke: 1px #38BF00;
+}
+.yellow-node {
+  color: #ffff7c;
+  -webkit-text-stroke: 1px #BFB500;
+}
+
+img {
+  width: 100%;
+}
+
+</style>
+</head>
+<body>
+
+<h2>3D Flow Maps Study - Tasks & Stimuli</h2>
+
+<p>
+  &nbsp;&nbsp; <b>3 Geometries:</b> 2D Line | 3D Band | 3D Tube<br/>
+  x <b>3 Geographies/Datasets:</b> <span class="europe">Europe/Telephone Traffic</span> | <span class="usa">USA/Flow of Commodities</span> | <span class="world">World/Migration</span><br/>
+  x <b>4 Tasks:</b> Flow Count | Connection Type | Flow Magnitude Radial | Flow Magnitude Pairs<br/>
+  x <b>2 Repetitions</b><br/>
+  = <b>72 Stimuli</b>
+</p>
+
+<div class="row">
+  <div class="column-lead">
+    Geometry
+  </div>
+  <div class="column">
+    <h2>2D Line</h2>
+  </div>
+  <div class="column">
+    <h2>3D Band</h2>
+  </div>
+  <div class="column">
+    <h2>3D Tube</h2>
+  </div>
+</div>
+
+<div class="row">
+  <div class="column100">
+    <p><b>Task 1 (Flow Count):</b>
+      Which of the three countries/states has the <b>largest number of connected flows</b>. Click on the correct <span class="blue-node">blue node</span>.
+    </p>
+  </div>
+</div>
+
+<div class="row">
+  <div class="column-lead">
+    Task: <b>Flow Count</b><br>
+    Data: <b>Europe</b><br>
+    Repetition: <b>1</b><br>
+    Answer: <b>Sweden</b>
+  </div>
+  <div class="column europe">
+    <img src="https://raw.githubusercontent.com/3DFlowMaps/StudyStimuli/main/Stimuli/europe_map11a_2d_line.png">
+  </div>
+  <div class="column europe">
+    <img src="https://raw.githubusercontent.com/3DFlowMaps/StudyStimuli/main/Stimuli/europe_map11a_3d_band.png">
+  </div>
+  <div class="column europe">
+    <img src="https://raw.githubusercontent.com/3DFlowMaps/StudyStimuli/main/Stimuli/europe_map11a_3d_tube.png">
+  </div>
+</div>
+
+<div class="row">
+  <div class="column-lead">
+    Task: <b>Flow Count</b><br>
+    Data: <b>Europe</b><br>
+    Repetition: <b>2</b><br>
+    Answer: <b>Spain</b>
+  </div>
+  <div class="column europe">
+    <img src="https://raw.githubusercontent.com/3DFlowMaps/StudyStimuli/main/Stimuli/europe_map12a_2d_line.png">
+  </div>
+  <div class="column europe">
+    <img src="https://raw.githubusercontent.com/3DFlowMaps/StudyStimuli/main/Stimuli/europe_map12a_3d_band.png">
+  </div>
+  <div class="column europe">
+    <img src="https://raw.githubusercontent.com/3DFlowMaps/StudyStimuli/main/Stimuli/europe_map12a_3d_tube.png">
+  </div>
+</div>
+
+<div class="row">
+  <div class="column-lead">
+    Task: <b>Flow Count</b><br>
+    Data: <b>USA</b><br>
+    Repetition: <b>1</b><br>
+    Answer: <b>Illinois</b>
+  </div>
+  <div class="column usa">
+    <img src="https://raw.githubusercontent.com/3DFlowMaps/StudyStimuli/main/Stimuli/usa_map11a_2d_line.png">
+  </div>
+  <div class="column usa">
+    <img src="https://raw.githubusercontent.com/3DFlowMaps/StudyStimuli/main/Stimuli/usa_map11a_3d_band.png">
+  </div>
+  <div class="column usa">
+    <img src="https://raw.githubusercontent.com/3DFlowMaps/StudyStimuli/main/Stimuli/usa_map11a_3d_tube.png">
+  </div>
+</div>
+
+<div class="row">
+  <div class="column-lead">
+    Task: <b>Flow Count</b><br>
+    Data: <b>USA</b><br>
+    Repetition: <b>2</b><br>
+    Answer: <b>Texas</b>
+  </div>
+  <div class="column usa">
+    <img src="https://raw.githubusercontent.com/3DFlowMaps/StudyStimuli/main/Stimuli/usa_map12a_2d_line.png">
+  </div>
+  <div class="column usa">
+    <img src="https://raw.githubusercontent.com/3DFlowMaps/StudyStimuli/main/Stimuli/usa_map12a_3d_band.png">
+  </div>
+  <div class="column usa">
+    <img src="https://raw.githubusercontent.com/3DFlowMaps/StudyStimuli/main/Stimuli/usa_map12a_3d_tube.png">
+  </div>
+</div>
+
+<div class="row">
+  <div class="column-lead">
+    Task: <b>Flow Count</b><br>
+    Data: <b>World</b><br>
+    Repetition: <b>1</b><br>
+    Answer: <b>Peru</b>
+  </div>
+  <div class="column world">
+    <img src="https://raw.githubusercontent.com/3DFlowMaps/StudyStimuli/main/Stimuli/world_map11a_2d_line.png">
+  </div>
+  <div class="column world">
+    <img src="https://raw.githubusercontent.com/3DFlowMaps/StudyStimuli/main/Stimuli/world_map11a_3d_band.png">
+  </div>
+  <div class="column world">
+    <img src="https://raw.githubusercontent.com/3DFlowMaps/StudyStimuli/main/Stimuli/world_map11a_3d_tube.png">
+  </div>
+</div>
+
+<div class="row">
+  <div class="column-lead">
+    Task: <b>Flow Count</b><br>
+    Data: <b>World</b><br>
+    Repetition: <b>2</b><br>
+    Answer: <b>United Kingdom</b>
+  </div>
+  <div class="column world">
+    <img src="https://raw.githubusercontent.com/3DFlowMaps/StudyStimuli/main/Stimuli/world_map12a_2d_line.png">
+  </div>
+  <div class="column world">
+    <img src="https://raw.githubusercontent.com/3DFlowMaps/StudyStimuli/main/Stimuli/world_map12a_3d_band.png">
+  </div>
+  <div class="column world">
+    <img src="https://raw.githubusercontent.com/3DFlowMaps/StudyStimuli/main/Stimuli/world_map12a_3d_tube.png">
+  </div>
+</div>
+
+<div class="row">
+  <div class="column100">
+    <p>
+      <b>Task 2 (Connection Type):</b>
+      Which of the three countries/states has <b>several small flows</b> and a <b>single significantly larger flow</b>? Click on the correct <span class="blue-node">blue node</span>.
+    </p>
+  </div>
+</div>
+
+<div class="row">
+  <div class="column-lead">
+    Task: <b>Connection Type</b><br>
+    Data: <b>Europe</b><br>
+    Repetition: <b>1</b><br>
+    Answer: <b>Austria</b>
+  </div>
+  <div class="column europe">
+    <img src="https://raw.githubusercontent.com/3DFlowMaps/StudyStimuli/main/Stimuli/europe_map21a_2d_line.png">
+  </div>
+  <div class="column europe">
+    <img src="https://raw.githubusercontent.com/3DFlowMaps/StudyStimuli/main/Stimuli/europe_map21a_3d_band.png">
+  </div>
+  <div class="column europe">
+    <img src="https://raw.githubusercontent.com/3DFlowMaps/StudyStimuli/main/Stimuli/europe_map21a_3d_tube.png">
+  </div>
+</div>
+
+<div class="row">
+  <div class="column-lead">
+    Task: <b>Connection Type</b><br>
+    Data: <b>Europe</b><br>
+    Repetition: <b>2</b><br>
+    Answer: <b>Belgium</b>
+  </div>
+  <div class="column europe">
+    <img src="https://raw.githubusercontent.com/3DFlowMaps/StudyStimuli/main/Stimuli/europe_map22a_2d_line.png">
+  </div>
+  <div class="column europe">
+    <img src="https://raw.githubusercontent.com/3DFlowMaps/StudyStimuli/main/Stimuli/europe_map22a_3d_band.png">
+  </div>
+  <div class="column europe">
+    <img src="https://raw.githubusercontent.com/3DFlowMaps/StudyStimuli/main/Stimuli/europe_map22a_3d_tube.png">
+  </div>
+</div>
+
+<div class="row">
+  <div class="column-lead">
+    Task: <b>Connection Type</b><br>
+    Data: <b>USA</b><br>
+    Repetition: <b>1</b><br>
+    Answer: <b>Missouri</b>
+  </div>
+  <div class="column usa">
+    <img src="https://raw.githubusercontent.com/3DFlowMaps/StudyStimuli/main/Stimuli/usa_map21a_2d_line.png">
+  </div>
+  <div class="column usa">
+    <img src="https://raw.githubusercontent.com/3DFlowMaps/StudyStimuli/main/Stimuli/usa_map21a_3d_band.png">
+  </div>
+  <div class="column usa">
+    <img src="https://raw.githubusercontent.com/3DFlowMaps/StudyStimuli/main/Stimuli/usa_map21a_3d_tube.png">
+  </div>
+</div>
+
+<div class="row">
+  <div class="column-lead">
+    Task: <b>Connection Type</b><br>
+    Data: <b>USA</b><br>
+    Repetition: <b>2</b><br>
+    Answer: <b>Washington DC</b>
+  </div>
+  <div class="column usa">
+    <img src="https://raw.githubusercontent.com/3DFlowMaps/StudyStimuli/main/Stimuli/usa_map22a_2d_line.png">
+  </div>
+  <div class="column usa">
+    <img src="https://raw.githubusercontent.com/3DFlowMaps/StudyStimuli/main/Stimuli/usa_map22a_3d_band.png">
+  </div>
+  <div class="column usa">
+    <img src="https://raw.githubusercontent.com/3DFlowMaps/StudyStimuli/main/Stimuli/usa_map22a_3d_tube.png">
+  </div>
+</div>
+
+<div class="row">
+  <div class="column-lead">
+    Task: <b>Connection Type</b><br>
+    Data: <b>World</b><br>
+    Repetition: <b>1</b><br>
+    Answer: <b>China</b>
+  </div>
+  <div class="column world">
+    <img src="https://raw.githubusercontent.com/3DFlowMaps/StudyStimuli/main/Stimuli/world_map21a_2d_line.png">
+  </div>
+  <div class="column world">
+    <img src="https://raw.githubusercontent.com/3DFlowMaps/StudyStimuli/main/Stimuli/world_map21a_3d_band.png">
+  </div>
+  <div class="column world">
+    <img src="https://raw.githubusercontent.com/3DFlowMaps/StudyStimuli/main/Stimuli/world_map21a_3d_tube.png">
+  </div>
+</div>
+
+<div class="row">
+  <div class="column-lead">
+    Task: <b>Connection Type</b><br>
+    Data: <b>World</b><br>
+    Repetition: <b>2</b><br>
+    Answer: <b>Peru</b>
+  </div>
+  <div class="column world">
+    <img src="https://raw.githubusercontent.com/3DFlowMaps/StudyStimuli/main/Stimuli/world_map22a_2d_line.png">
+  </div>
+  <div class="column world">
+    <img src="https://raw.githubusercontent.com/3DFlowMaps/StudyStimuli/main/Stimuli/world_map22a_3d_band.png">
+  </div>
+  <div class="column world">
+    <img src="https://raw.githubusercontent.com/3DFlowMaps/StudyStimuli/main/Stimuli/world_map22a_3d_tube.png">
+  </div>
+</div>
+
+
+<div class="row">
+  <div class="column100">
+    <p>
+      <b>Task 3 (Flow Magnitude Radial):</b>
+      Which flow between the <span class="blue-node">blue node</span> and the <span class="green-node">green nodes</span> has the <b>largest magnitude</b>? Click on the correct <span class="green-node">green node</span>.
+    </p>
+  </div>
+</div>
+
+<div class="row">
+  <div class="column-lead">
+    Task: <b>Flow Magnitude Radial</b><br>
+    Data: <b>Europe</b><br>
+    Repetition: <b>1</b><br>
+    Answer: <b>France</b>
+  </div>
+  <div class="column europe">
+    <img src="https://raw.githubusercontent.com/3DFlowMaps/StudyStimuli/main/Stimuli/europe_map31a_2d_line.png">
+  </div>
+  <div class="column europe">
+    <img src="https://raw.githubusercontent.com/3DFlowMaps/StudyStimuli/main/Stimuli/europe_map31a_3d_band.png">
+  </div>
+  <div class="column europe">
+    <img src="https://raw.githubusercontent.com/3DFlowMaps/StudyStimuli/main/Stimuli/europe_map31a_3d_tube.png">
+  </div>
+</div>
+
+<div class="row">
+  <div class="column-lead">
+    Task: <b>Flow Magnitude Radial</b><br>
+    Data: <b>Europe</b><br>
+    Repetition: <b>2</b><br>
+    Answer: <b>Netherlands</b>
+  </div>
+  <div class="column europe">
+    <img src="https://raw.githubusercontent.com/3DFlowMaps/StudyStimuli/main/Stimuli/europe_map32a_2d_line.png">
+  </div>
+  <div class="column europe">
+    <img src="https://raw.githubusercontent.com/3DFlowMaps/StudyStimuli/main/Stimuli/europe_map32a_3d_band.png">
+  </div>
+  <div class="column europe">
+    <img src="https://raw.githubusercontent.com/3DFlowMaps/StudyStimuli/main/Stimuli/europe_map32a_3d_tube.png">
+  </div>
+</div>
+
+<div class="row">
+  <div class="column-lead">
+    <div class="column-lead">
+      Task: <b>Flow Magnitude Radial</b><br>
+      Data: <b>USA</b><br>
+      Repetition: <b>1</b><br>
+      Answer: <b>Florida</b>
+  </div>
+  </div>
+  <div class="column usa">
+    <img src="https://raw.githubusercontent.com/3DFlowMaps/StudyStimuli/main/Stimuli/usa_map31a_2d_line.png">
+  </div>
+  <div class="column usa">
+    <img src="https://raw.githubusercontent.com/3DFlowMaps/StudyStimuli/main/Stimuli/usa_map31a_3d_band.png">
+  </div>
+  <div class="column usa">
+    <img src="https://raw.githubusercontent.com/3DFlowMaps/StudyStimuli/main/Stimuli/usa_map31a_3d_tube.png">
+  </div>
+</div>
+
+<div class="row">
+  <div class="column-lead">
+    Task: <b>Flow Magnitude Radial</b><br>
+    Data: <b>USA</b><br>
+    Repetition: <b>2</b><br>
+    Answer: <b>Illinois</b>>]
+  </div>
+  <div class="column usa">
+    <img src="https://raw.githubusercontent.com/3DFlowMaps/StudyStimuli/main/Stimuli/usa_map32a_2d_line.png">
+  </div>
+  <div class="column usa">
+    <img src="https://raw.githubusercontent.com/3DFlowMaps/StudyStimuli/main/Stimuli/usa_map32a_3d_band.png">
+  </div>
+  <div class="column usa">
+    <img src="https://raw.githubusercontent.com/3DFlowMaps/StudyStimuli/main/Stimuli/usa_map32a_3d_tube.png">
+  </div>
+</div>
+
+
+<div class="row">
+  <div class="column-lead">
+    Task: <b>Flow Magnitude Radial</b><br>
+    Data: <b>World</b><br>
+    Repetition: <b>1</b><br>
+    Answer: <b>United Arab Emirates</b>
+  </div>
+  <div class="column world">
+    <img src="https://raw.githubusercontent.com/3DFlowMaps/StudyStimuli/main/Stimuli/world_map31a_2d_line.png">
+  </div>
+  <div class="column world">
+    <img src="https://raw.githubusercontent.com/3DFlowMaps/StudyStimuli/main/Stimuli/world_map31a_3d_band.png">
+  </div>
+  <div class="column world">
+    <img src="https://raw.githubusercontent.com/3DFlowMaps/StudyStimuli/main/Stimuli/world_map31a_3d_tube.png">
+  </div>
+</div>
+
+<div class="row">
+  <div class="column-lead">
+    Task: <b>Flow Magnitude Radial</b><br>
+    Data: <b>World</b><br>
+    Repetition: <b>2</b><br>
+    Answer: <b>Kazakhstan</b>
+  </div>
+  <div class="column world">
+    <img src="https://raw.githubusercontent.com/3DFlowMaps/StudyStimuli/main/Stimuli/world_map32a_2d_line.png">
+  </div>
+  <div class="column world">
+    <img src="https://raw.githubusercontent.com/3DFlowMaps/StudyStimuli/main/Stimuli/world_map32a_3d_band.png">
+  </div>
+  <div class="column world">
+    <img src="https://raw.githubusercontent.com/3DFlowMaps/StudyStimuli/main/Stimuli/world_map32a_3d_tube.png">
+  </div>
+</div>
+
+<div class="row">
+  <div class="column100">
+    <p>
+      <b>Task 4 (Flow Magnitude Pairs):</b>
+      Which flow has the <b>larger magnitude</b>: the one between the <span class="blue-node">blue nodes</span> or the <span class="green-node">green nodes</span>? Click on one of the two correct nodes.
+    </p>
+  </div>
+</div>
+
+<div class="row">
+  <div class="column-lead">
+    Task: <b>Flow Magnitude Pairs</b><br>
+    Data: <b>Europe</b><br>
+    Repetition: <b>1</b><br>
+    Answer: <b>United Kingdom + Spain</b>
+  </div>
+  <div class="column europe">
+    <img src="https://raw.githubusercontent.com/3DFlowMaps/StudyStimuli/main/Stimuli/europe_map41_2d_line.png">
+  </div>
+  <div class="column europe">
+    <img src="https://raw.githubusercontent.com/3DFlowMaps/StudyStimuli/main/Stimuli/europe_map41_3d_band.png">
+  </div>
+  <div class="column europe">
+    <img src="https://raw.githubusercontent.com/3DFlowMaps/StudyStimuli/main/Stimuli/europe_map41_3d_tube.png">
+  </div>
+</div>
+
+<div class="row">
+  <div class="column-lead">
+    Task: <b>Flow Magnitude Pairs</b><br>
+    Data: <b>Europe</b><br>
+    Repetition: <b>2</b><br>
+    Answer: <b>Germany + Turkey</b>
+  </div>
+  <div class="column europe">
+    <img src="https://raw.githubusercontent.com/3DFlowMaps/StudyStimuli/main/Stimuli/europe_map42_2d_line.png">
+  </div>
+  <div class="column europe">
+    <img src="https://raw.githubusercontent.com/3DFlowMaps/StudyStimuli/main/Stimuli/europe_map42_3d_band.png">
+  </div>
+  <div class="column europe">
+    <img src="https://raw.githubusercontent.com/3DFlowMaps/StudyStimuli/main/Stimuli/europe_map42_3d_tube.png">
+  </div>
+</div>
+
+<div class="row">
+  <div class="column-lead">
+    Task: <b>Flow Magnitude Pairs</b><br>
+    Data: <b>USA</b><br>
+    Repetition: <b>1</b><br>
+    Answer: <b>Minnesota + Wisconsin</b>
+  </div>
+  <div class="column usa">
+    <img src="https://raw.githubusercontent.com/3DFlowMaps/StudyStimuli/main/Stimuli/usa_map41_2d_line.png">
+  </div>
+  <div class="column usa">
+    <img src="https://raw.githubusercontent.com/3DFlowMaps/StudyStimuli/main/Stimuli/usa_map41_3d_band.png">
+  </div>
+  <div class="column usa">
+    <img src="https://raw.githubusercontent.com/3DFlowMaps/StudyStimuli/main/Stimuli/usa_map41_3d_tube.png">
+  </div>
+</div>
+
+<div class="row">
+  <div class="column-lead">
+    Task: <b>Flow Magnitude Pairs</b><br>
+    Data: <b>USA</b><br>
+    Repetition: <b>2</b><br>
+    Answer: <b>California + Pennsylvania</b>
+  </div>
+  <div class="column usa">
+    <img src="https://raw.githubusercontent.com/3DFlowMaps/StudyStimuli/main/Stimuli/usa_map42_2d_line.png">
+  </div>
+  <div class="column usa">
+    <img src="https://raw.githubusercontent.com/3DFlowMaps/StudyStimuli/main/Stimuli/usa_map42_3d_band.png">
+  </div>
+  <div class="column usa">
+    <img src="https://raw.githubusercontent.com/3DFlowMaps/StudyStimuli/main/Stimuli/usa_map42_3d_tube.png">
+  </div>
+</div>
+
+<div class="row">
+  <div class="column-lead">
+    Task: <b>Flow Magnitude Pairs</b><br>
+    Data: <b>World</b><br>
+    Repetition: <b>1</b><br>
+    Answer: <b>Bangladesh + Malaysia</b>
+  </div>
+  <div class="column world">
+    <img src="https://raw.githubusercontent.com/3DFlowMaps/StudyStimuli/main/Stimuli/world_map41_2d_line.png">
+  </div>
+  <div class="column world">
+    <img src="https://raw.githubusercontent.com/3DFlowMaps/StudyStimuli/main/Stimuli/world_map41_3d_band.png">
+  </div>
+  <div class="column world">
+    <img src="https://raw.githubusercontent.com/3DFlowMaps/StudyStimuli/main/Stimuli/world_map41_3d_tube.png">
+  </div>
+</div>
+
+<div class="row">
+  <div class="column-lead">
+    Task: <b>Flow Magnitude Pairs</b><br>
+    Data: <b>World</b><br>
+    Repetition: <b>1</b><br>
+    Answer: <b>United States + India</b>
+  </div>
+  <div class="column world">
+    <img src="https://raw.githubusercontent.com/3DFlowMaps/StudyStimuli/main/Stimuli/world_map42_2d_line.png">
+  </div>
+  <div class="column world">
+    <img src="https://raw.githubusercontent.com/3DFlowMaps/StudyStimuli/main/Stimuli/world_map42_3d_band.png">
+  </div>
+  <div class="column world">
+    <img src="https://raw.githubusercontent.com/3DFlowMaps/StudyStimuli/main/Stimuli/world_map42_3d_tube.png">
+  </div>
+</div>
+
+</body>
+</html>
