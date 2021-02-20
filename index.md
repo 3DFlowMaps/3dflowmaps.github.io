@@ -17,5 +17,6 @@ Information for reviewers: The webpage does not track any activities.
 - Training Session
 - [Tasks & Stimuli](tasks_stimuli.html)
 - Ranking Tasks
+- Qualtrics Survey Generator
 
 ## Analysis & Results
