@@ -8,8 +8,8 @@ Information for reviewers: The webpage does not track any activities.
 
 ## Stimuli Development
 
-- 2D Maps
-- 3D Maps
+- [2D Maps](https://github.com/3DFlowMaps/2DFloxStimuli)
+- [3D Maps](https://github.com/3DFlowMaps/3DBlenderStimuli)
 
 ## Study
 
@@ -17,6 +17,6 @@ Information for reviewers: The webpage does not track any activities.
 - Training Session
 - [Tasks & Stimuli](tasks_stimuli.html)
 - Ranking Tasks
-- Qualtrics Survey Generator
+- [Qualtrics Survey Generator](https://github.com/3DFlowMaps/QualtricsSurveyGenerator)
 
 ## Analysis & Results
