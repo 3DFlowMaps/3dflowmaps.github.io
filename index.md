@@ -6,11 +6,16 @@ Information for reviewers: The webpage does not track any activities.
 
 # Evaluating the effect of three-dimensional depth cues for origin-destination flow maps on readability and preference
 
+## Stimuli Development
+
+- 2D Maps
+- 3D Maps
+
 ## Study
 
 - Informed Consent
 - Training Session
-- Tasks & Stimuli
+- [Tasks & Stimuli](tasks_stimuli.html)
 - Ranking Tasks
 
 ## Analysis & Results
